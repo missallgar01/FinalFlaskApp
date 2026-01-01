@@ -11,7 +11,7 @@ class Weather():
   """Class to access weather data"""
   def __init__(self):
     """Constructor Method"""
-    self.api_key = "efb67b5073bab84b1dc7575bedd41c27"
+    self.api_key = "INSERT API KEY"
 
 
   def getCurrentWeather(self, lat, lon):
