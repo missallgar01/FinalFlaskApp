@@ -1,0 +1,38 @@
+<!doctype html>
+
+  <head>
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename='css/signin.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+  
+  
+<body>
+
+<img src="{{ url_for('static', filename='images/logo.png') }}"/>
+
+<div class="content">
+    <div class="login">
+
+      <form method="post">
+              <div class="mb-3">
+                <label for="InputUsername" class="form-label">Username</label>
+                <input type="text" class="form-control" id="InputUsername" name="username" value="{{ request.form['username'] }}">
+                </div>
+
+              <div class="mb-3">
+                <label for="InputPassword" class="form-label">Password</label>
+                <input type="password" class="form-control" id="InputPassword" name="password" value="{{ request.form['password'] }}">
+              </div>
+              <br>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+    </div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+
+  </body>
+</html>

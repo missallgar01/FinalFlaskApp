@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the content */
+.content {
+  background-color: #ddd;
+  padding: 10px;
+}
+
+.login{
+width: 300px;
+}
+
+p {font-size: 16px;}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+
